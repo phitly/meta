@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Form</title>
+</head>
+<body>
+  <main>
+    <!-- Step 1: Form inside main -->
+    <form>
+      <!-- Step 2: Two divs -->
+      <div>
+        <!-- Step 3: Label for username -->
+        <label for="username">Username:</label>
+        <!-- Step 4–6: Input with required, minlength, id, and matching for -->
+        <input 
+          type="text" 
+          id="username" 
+          name="username" 
+          required 
+          minlength="2"
+        >
+      </div>
+
+      <div>
+        <!-- Step 7: Label for password -->
+        <label for="password">Password:</label>
+        <!-- Step 8–11: Input with type=password, id, name, required, minlength -->
+        <input 
+          type="password" 
+          id="password" 
+          name="password" 
+          required 
+          minlength="2"
+        >
+      </div>
+
+      <!-- Step 12–13: Submit button -->
+      <button type="submit">Log In</button>
+    </form>
+  </main>
+</body>
+</html>
